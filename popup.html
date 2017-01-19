@@ -1,55 +1,46 @@
 <html>
-<head>
-<title>TTL Soundboard</title>
+  <head>
+    <title>TTL Soundboard</title>
 
-</head>
+  </head>
 
-<body bgcolor="white">
+  <body bgcolor="white">
 
-<style type="text/css">
-  img {
-    width: 100px;
-    border: 2px solid #000;
-    margin: 5px;
-    padding: 5px;
-  }
-</style>
+    <style type="text/css">
+      img {
+        width: 100px;
+        border: 2px solid #000;
+        margin: 5px;
+        padding: 5px;
+      }
+    </style>
 
+    <table  border="0">
+      <tr>
+        <td>
+          <img src="media/sad-trombone.png" type="button" value="PLAY" class="js-play" data-target="#trombone" alt="Sad Trombone" title="Sad Trombone" />
+          <audio id="trombone" src="media/sad-trombone.mp3" ></audio>
+        </td>
+        <td>
+          <img src="media/eastenders.png" type="button" value="PLAY" class="js-play" data-target="#eastenders" alt="Eastenders Drums" title="Eastenders drums" />
+          <audio id="eastenders" src="media/eastenders.mp3" ></audio>
+        </td>
+      </tr>
 
-<table  border="0">
-  <tr>
-    <td>
-      <img src="media/sad-trombone.png" type="button" value="PLAY" class="js-play" data-target="#trombone" alt="Sad Trombone" title="Sad Trombone" />
-      <audio id="trombone" src="media/sad-trombone.mp3" ></audio>
-    </td>
+      <tr>
+        <td>
+          <img src="media/joke-drums.png" type="button" value="PLAY" class="js-play" data-target="#drums" alt="Badum Tss" title="Badum tsss" />
+          <audio id="drums" src="media/badum.mp3" ></audio>
+        </td>
+        <td>
+          <img src="media/timmy.png" type="button" value="PLAY" class="js-play" data-target="#timmy" alt="Timmy" title="Timmy" />
+          <audio id="timmy" src="media/timmy.mp3" ></audio>
+        </td>
+      </tr>
+    </table>
 
-    <td>
-      <img src="media/eastenders.png" type="button" value="PLAY" class="js-play" data-target="#eastenders" alt="Eastenders Drums" title="Eastenders drums" />
-      <audio id="eastenders" src="media/eastenders.mp3" ></audio>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
 
-    </td>
-    </tr>
-    <tr>
-
-    <td>
-      <img src="media/joke-drums.png" type="button" value="PLAY" class="js-play" data-target="#drums" alt="Badum Tss" title="Badum tsss" />
-      <audio id="drums" src="media/badum.mp3" ></audio>
-
-    </td>
-
-    <td>
-      <img src="media/timmy.png" type="button" value="PLAY" class="js-play" data-target="#timmy" alt="Timmy" title="Timmy" />
-      <audio id="timmy" src="media/timmy.mp3" ></audio>
-
-    </td>
-  </tr>
-  
-  
-  
-</table>
-
-<script src="jquery.js"></script>
-<script src="script.js"></script>
-
-</BODY>
-</HTML>
+  </body>
+</html>
